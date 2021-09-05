@@ -90,7 +90,7 @@ const App = () => (
       <Route path="/search">
         <SearchResult />
       </Route>
-      <Route path="/cookies-banner">
+      <Route path="/cookies">
         <Cookies />
       </Route>
       <Route path="/deactivate-account">

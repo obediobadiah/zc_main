@@ -220,25 +220,6 @@ const SignUp = () => {
 
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.login_container}>
-          <div className={styles.logo}>
-            <img src={logo} className={styles.logoImage} />
-            <b className={styles.logoText}>Zuri Chat</b>
-          </div>
-  
-          <div className={styles.signup_button}>
-            <button
-              type="submit"
-              className={styles.signup_btn}
-              onClick={passwordCheck}
-            >
-              Sign up
-            </button>
-          </div>
-
-        </div>
-      </div>
       <section
         className={`${styles.section_signup}`}
         style={{
