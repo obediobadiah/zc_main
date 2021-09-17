@@ -4,7 +4,7 @@ import image2 from '../assests/icons8-slider-50.png'
 
 const Section1 = () => {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className="pt-5 mt-3">
           <h2 className={styles.title}>
@@ -58,8 +58,9 @@ const Section1 = () => {
           </div>
         </div>
         <div className={styles.button_group}>
-          <button className={styles.previous}>&#8249;</button>
-          <button className={styles.next}>&#8250;</button>
+          {/* <button className={styles.previous}>&#8249;</button>
+                    <button className={styles.next}>&#8250;</button> */}
+          <img src="divider.svg" alt="" />
         </div>
       </div>
     </div>
