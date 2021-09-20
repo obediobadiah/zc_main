@@ -52,6 +52,7 @@ import Test from './components/verified-components'
 import RecoverPassword from './pages/passwordRecovery/index'
 import ResetPassword from './pages/passwordReset/Index'
 import AuthApi from './pages/api-docs/components/auth'
+import BlogPost from './pages/blog-post/components/BlogPost'
 
 import './components/verified-components/master.css'
 
@@ -104,37 +105,6 @@ const App = () => (
         <Route path="/marketplace" exact>
           <MarketPlace />
         </Route>
-<<<<<<< HEAD
-      </Route>
-      <Route path="/faq">
-        <FAQ />
-      </Route>
-      <Route path="/input">
-        <Input />
-      </Route>
-      <Route path="/settings">
-        <Settings />
-      </Route>
-      <Route path="/search">
-        <SearchResult />
-      </Route>
-      <Route path="/cookies">
-        <Cookies />
-      </Route>
-      <Route path="/deactivate-account">
-        <DeactivateAccount />
-      </Route>
-      <Route path="/link">
-        <LinkComponent
-          title={`test-to-home`}
-          to={`/home`}
-          color={`black`}
-          underline
-        />
-      </Route>
-    </Switch>
-  </BrowserRouter>
-=======
         <Route path="/faq">
           <FAQ />
         </Route>
@@ -221,9 +191,11 @@ const App = () => (
         <Route path="/test">
           <Test />
         </Route>
+        <Route path="/BlogPost">
+          <BlogPost />
+        </Route>
       </Switch>
     </BrowserRouter>
   </TopbarProvider>
->>>>>>> 168e9fbbe24ab46e4fd8072f787def33b518033b
 )
 export default App
