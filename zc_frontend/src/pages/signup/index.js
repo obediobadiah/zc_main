@@ -87,7 +87,7 @@ const Signup = () => {
     <main id={styles.authPageWrapper}>
       {showDialog && <EmailVerification />}
       <aside id={styles.authAsideContainer} className={styles.display_none}>
-        <div id={styles.authImageWrapper}>
+        <div id={styles.authImageWrapper}> 
           <img src={images[currentImage]} alt="backgroundImage" />
           {/* <div id={styles.aside_txt}></div> */}
         </div>
