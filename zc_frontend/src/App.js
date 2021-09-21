@@ -11,6 +11,7 @@ import Features from './pages/features'
 import Resources from './pages/resources'
 import AppsAndIntegrations from './pages/apps-integrations'
 import Careers from './pages/careers'
+import Blogs from './pages/blogs'
 import Download from './pages/download'
 import ContactUs from './pages/contact-us'
 import Pricing from './pages/pricing'
@@ -47,8 +48,7 @@ import MarketplaceApi from './pages/api-docs/components/marketplace'
 import DataApi from './pages/api-docs/components/data'
 import PluginApi from './pages/api-docs/components/plugin'
 import CreateWorkspace from './pages/create-workspace/CreateWorkSpace'
-import ProjectName from './pages/create-workspace/ProjectName'
-import LaunchPage from './pages/create-workspace/LaunchPage'
+
 
 import '@reach/dialog/styles.css'
 import StyleGuide from './components/verified'
@@ -57,10 +57,13 @@ import RecoverPassword from './pages/passwordRecovery/index'
 import ResetPassword from './pages/passwordReset/Index'
 import PrivateRoute from './pages/settings/Utils/PrivateRoute'
 import AuthApi from './pages/api-docs/components/auth'
+// import Eventspage from './pages/events/components/Eventspage'
+import EventsMainWrapper from './pages/events/components/EventsMainWrapper'
+
 import { useRouteMatch } from 'react-router-dom'
 import './components/verified-components/master.css'
-import CompanyName from './pages/create-workspace/CompanyName'
-import Step3 from './pages/create-workspace/Step3'
+import CreateWorkSpaces from './pages/create-workspace/createWorkSpaceContext'
+
 
 const App = () => {
   let workspaceRoute = '/home/createworkspace'
@@ -70,6 +73,7 @@ const App = () => {
         {/* <Route path="/" exact>
           <LandingPage />
         </Route> */}
+        <CreateWorkSpaces />
         <Route path="/" exact>
           <Homepage />
         </Route>
@@ -94,34 +98,18 @@ const App = () => {
         <Route path="/careers">
           <Careers />
         </Route>
-
+        <Route path="/blogs">
+          <Blogs />
+        </Route>
         <Route path="/apps-integrations">
           <AppsAndIntegrations />
         </Route>
         <Route path="/resources">
           <Resources />
         </Route>
-        <Route path={workspaceRoute} exact>
-          <CreateWorkspace />
-        </Route>
-        {/* <Route path = {`${match.path}/companyname`}>
-          <CompanyName/>
-          </Route> */}
-        <Route path={`${workspaceRoute}/step1`} exact>
-          <CompanyName />
-        </Route>
-        <Route path={`${workspaceRoute}/step1/step2`} exact>
-          <ProjectName />
-        </Route>
-        <Route path={`${workspaceRoute}/step1/step2/step3`} exact>
-          <Step3 />
-        </Route>
-        <Route path={`${workspaceRoute}/step1/step2/step3/launch`}>
-          <LaunchPage />
-        </Route>
-        <Route path="/download-app">
+        {/* <Route path="/download-app">
           <Download />
-        </Route>
+        </Route> */}
         <Route path="/contact-us">
           <ContactUs />
         </Route>
@@ -222,8 +210,13 @@ const App = () => {
         <Route path="/test">
           <Test />
         </Route>
+<<<<<<< HEAD
         <Route path="/BlogPost">
           <BlogPost />
+=======
+        <Route path="/events">
+          <EventsMainWrapper />
+>>>>>>> 086316432845fa73c2812853cfc8c8125791d321
         </Route>
       </Switch>
     </TopbarProvider>
