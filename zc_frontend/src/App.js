@@ -210,13 +210,8 @@ const App = () => {
         <Route path="/test">
           <Test />
         </Route>
-<<<<<<< HEAD
-        <Route path="/BlogPost">
-          <BlogPost />
-=======
         <Route path="/events">
           <EventsMainWrapper />
->>>>>>> 086316432845fa73c2812853cfc8c8125791d321
         </Route>
       </Switch>
     </TopbarProvider>
