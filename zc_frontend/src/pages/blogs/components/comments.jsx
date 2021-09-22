@@ -168,7 +168,7 @@ const Comments = () => {
                       {comm.comment_content}
                       {console.log(comm, 'Josue')}
                       <br />
-                    </p>
+                    </p> 
                   </div>
                   <div className={style.dot}>
                     <a href="#">

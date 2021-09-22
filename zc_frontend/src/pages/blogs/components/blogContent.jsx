@@ -88,7 +88,7 @@ const container = () => {
           Whether your organization has returned to the brick-and-mortar office,
           is fully remote, or is a hybrid of
           <br /> both, here are a few ways you can use Slack to strengthen team
-          connection.
+          connection. 
           <br />
           <br />
           When teams are juggling multiple projects and competing priorities, it
