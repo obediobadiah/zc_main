@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../Style/style.module.css'
+import style from '../Style/styles.module.css'
 import first from '../assets/ZuriChatBlogStater.png'
 import Clock from '../assets/clock-black.svg'
 import link from '../assets/link-black.svg'

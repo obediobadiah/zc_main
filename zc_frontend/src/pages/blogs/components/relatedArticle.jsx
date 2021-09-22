@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../Style/style.module.css'
+import style from '../Style/styles.module.css'
 import first from '../assets/Card1.png'
 import second from '../assets/Card2.png'
 

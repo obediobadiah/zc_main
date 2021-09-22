@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import style from '../Style/style.module.css'
+import style from '../Style/styles.module.css'
 import { UitCommentDots } from '@iconscout/react-unicons-thinline'
 import Like from '../assets/thumbs-up-white.svg'
 import Avatar from '../assets/user.svg'
