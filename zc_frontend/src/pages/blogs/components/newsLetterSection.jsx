@@ -6,7 +6,7 @@ const newsLetterSection = () => {
     <div className={style.blog_newletter}>
       <div className={style.newsletter_img}>
         <img src={second} alt="" />
-      </div> 
+      </div>  
       <div className={style.newletter_text}>
         <div style={{ marginBottom: 20 }}>
           <h2>

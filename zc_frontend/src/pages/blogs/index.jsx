@@ -8,7 +8,7 @@ import Footer from '../../components/externalPagesComponents/Footer/Footer'
 import Header from '../../components/externalPagesComponents/Header'
 const index = () => {
   return (
-    <> 
+    <>  
       <Header />
       <div className={styles.Blog_container}>
         <div className={styles.Blog_text}>

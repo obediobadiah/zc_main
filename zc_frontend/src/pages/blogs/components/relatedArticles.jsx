@@ -52,7 +52,7 @@ const relatedArticles = () => {
         <div className={style.keep_reading_box}>
           <div className={style.keep_reading_img}>
             <img src={first} alt="" />
-          </div>  
+          </div>   
           <div className={style.keep_reading_text}>
             <p className={style.getting}>Getting Started</p>
             <h3 style={{ fontSize: '1.7em', padding: 0, margin: 0 }}>

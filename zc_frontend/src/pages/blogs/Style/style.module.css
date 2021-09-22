@@ -346,7 +346,7 @@ form textarea {
   .comment_card {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
   }
 }
 
